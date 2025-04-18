@@ -1,0 +1,101 @@
+/*  Color Palette 
+      #2E3248--Dark Blue   #3D483F—Dark Green
+      #7695A8-mid blue 	#8CA6A1-gray green  #8B9F91-mid green
+      #BCD3C5-lt green	#E3CCA6-beige	    #E6C1A9-peachy beige
+      F6EEE4 -Very Light beige   */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+header {
+    background-color: #8B9F91;
+    color: #2D382F;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.intro {
+    max-width: 500px;
+    text-align: left;
+    padding-left: 2rem;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E6C1A9;
+    color: #2D382F;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #8B9F91;
+    color: #2D382F;
+    text-align: center;
+    align-items: center;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+    color: #2D382F;
+}
+
+.centered {
+    text-align: center !important;
+}
+
+/*table styles*/
+table {
+    width: 75%;
+    margin: 1em;
+    border-collapse: collapse;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 2px solid #0c2d48;
+    padding: .5rem;
+}
+
+th {
+    background-color: #2e8bc0;
+    color: white;
+}
+
+caption {
+    padding: .5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+tr:hover {
+    background-color: #95c1d5 !important;
+}
+
+tr:nth-child(even) {
+    background-color: #d9eaf1;
+}
+
+
+
+/* Form Styles*/
+form {
+    background-color: white;
+    padding: lem;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0px #A67873;
+}
